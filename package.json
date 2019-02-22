@@ -1,0 +1,49 @@
+{
+  "name": "electron-react-typescript-calculator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Tomas Kacalek <kacalek.tom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prod": "webpack --mode production --config webpack.build.config.js && electron --noDevServer .",
+    "start": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js --mode development",
+    "build": "webpack --config webpack.build.config.js --mode production",
+    "package": "npm run build",
+    "postpackage": "electron-packager ./ --out=./builds"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^4.1.0",
+    "@types/enzyme": "3.1.14",
+    "@types/enzyme-adapter-react-16": "1.0.3",
+    "@types/html-webpack-plugin": "3.2.0",
+    "@types/jest": "23.3.2",
+    "@types/react": "16.4.14",
+    "@types/react-dom": "16.0.8",
+    "@types/webpack": "4.4.13",
+    "@types/webpack-dev-server": "3.1.1",
+    "css-loader": "^2.1.0",
+    "enzyme": "3.6.0",
+    "enzyme-adapter-react-16": "1.5.0",
+    "enzyme-to-json": "3.3.4",
+    "html-webpack-plugin": "3.2.0",
+    "jest": "23.6.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "svg-react-loader": "^0.4.6",
+    "ts-jest": "23.10.3",
+    "ts-loader": "5.2.1",
+    "typescript": "3.1.1",
+    "url-loader": "^1.1.2",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.9"
+  },
+  "dependencies": {
+    "@martin_hotell/rex-tils": "1.0.0",
+    "@types/mathjs": "^5.0.0",
+    "electron": "^4.0.0",
+    "mathjs": "^5.4.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
+  }
+}

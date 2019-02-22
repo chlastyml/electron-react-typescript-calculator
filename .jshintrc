@@ -1,0 +1,22 @@
+{
+    "bitwise": true,
+    "eqeqeq": true,
+    "expr": true,
+    "forin": true,
+    "futurehostile": true,
+    "latedef": true,
+    "newcap": false,
+    "noarg": true,
+    "nocomma": true,
+    "nonbsp": true,
+    "strict": true,
+    "undef": true,
+    "unused": true,
+    "esversion": 6,
+    "node": true,
+    "globals": {
+        "console": false,
+        "angular": false
+    },
+    "varstmt": true
+}
