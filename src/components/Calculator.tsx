@@ -158,7 +158,7 @@ class Calculator extends Component<Props, States> {
 
     render() {
         return (
-            <div className="App">
+            <div className="App" style={{ fontFamily: 'Share Tech Mono' }}>
                 <Display data={this.state.operations} />
                 <Buttons>
                     <Button onClick={this.handleClick} label="C" value="Delete" />
