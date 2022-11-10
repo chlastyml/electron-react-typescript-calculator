@@ -42,7 +42,7 @@
   "dependencies": {
     "@martin_hotell/rex-tils": "1.0.0",
     "@types/mathjs": "^5.0.0",
-    "electron": "^4.0.0",
+    "electron": "^18.3.7",
     "mathjs": "^5.4.2",
     "react": "16.5.2",
     "react-dom": "16.5.2"
